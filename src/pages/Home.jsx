@@ -59,10 +59,10 @@ export default function Home() {
       />
 
       {/* ── Hero ── */}
-      <section className="relative min-h-screen flex items-center justify-center bg-navy-900 overflow-hidden">
+      <section className="relative z-10 min-h-screen flex items-center justify-center bg-navy-900 overflow-hidden">
         <HeroSlider />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center text-white pt-20">
+        <div className="relative z-20 max-w-5xl mx-auto px-4 text-center text-white pt-20">
           <motion.p
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
@@ -93,20 +93,13 @@ export default function Home() {
             </Button>
           </motion.div>
         </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 rounded-full border-2 border-white/40 flex items-start justify-center p-1.5">
-            <div className="w-1.5 h-3 bg-white/60 rounded-full" />
-          </div>
-        </div>
       </section>
 
       {/* ── Search Widget ── */}
-      <section className="relative z-20 -mt-10 max-w-4xl mx-auto px-4 mb-4">
+      <section className="relative z-30 -mt-12 max-w-4xl mx-auto px-4 mb-4">
         <form
           onSubmit={handleSearch}
-          className="bg-white rounded-xl border border-slate-200 shadow-xl p-6 pt-5 grid grid-cols-1 sm:grid-cols-4 gap-4"
+          className="bg-white rounded-xl border border-slate-200 p-6 grid grid-cols-1 sm:grid-cols-4 gap-4"
         >
           <div>
             <label htmlFor="search-city" className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1.5">Location</label>

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 
 const SITE_NAME = 'RK Builders & Developers';
 const DEFAULT_DESCRIPTION = 'RK Builders & Developers — Premium real estate builder and developer in Mumbai. Explore luxury apartments, exclusive villas, and commercial spaces across the city.';
-const SITE_URL = 'https://rkbuilders.com'; // Replace with actual domain
+const SITE_URL = 'https://rkbuildersanddevelopers.in';
 
 export default function SEO({
   title,
@@ -17,7 +17,7 @@ export default function SEO({
   canonical,
   noindex = false,
 }) {
-  const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} — Premium Real Estate in Odisha`;
+  const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} — Premium Real Estate in Mumbai`;
   const pageUrl = url ? `${SITE_URL}${url}` : SITE_URL;
   const ogImage = image || `${SITE_URL}/og-image.jpg`;
 

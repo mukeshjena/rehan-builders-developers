@@ -8,33 +8,33 @@ const galleryData = [
   {
     category: 'RK Green City',
     items: [
-      { id: 1, src: 'https://placehold.co/800x600/1B2A4A/ffffff?text=Green+City+Exterior', alt: 'RK Green City exterior view' },
-      { id: 2, src: 'https://placehold.co/800x600/2d3d5a/ffffff?text=Green+City+Clubhouse', alt: 'RK Green City clubhouse' },
-      { id: 3, src: 'https://placehold.co/800x600/3a4f74/ffffff?text=Green+City+Pool', alt: 'RK Green City swimming pool' },
-      { id: 4, src: 'https://placehold.co/800x600/4a6491/ffffff?text=Green+City+Garden', alt: 'RK Green City garden' },
+      { id: 1, src: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City exterior view' },
+      { id: 2, src: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City clubhouse' },
+      { id: 3, src: 'https://images.unsplash.com/photo-1572331165267-854da2b021b1?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City swimming pool' },
+      { id: 4, src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City garden' },
     ],
   },
   {
     category: 'Skyline Towers',
     items: [
-      { id: 5, src: 'https://placehold.co/800x600/2d3d5a/ffffff?text=Skyline+Tower+A', alt: 'Skyline Towers tower A' },
-      { id: 6, src: 'https://placehold.co/800x600/3a4f74/ffffff?text=Skyline+Lobby', alt: 'Skyline Towers lobby' },
-      { id: 7, src: 'https://placehold.co/800x600/4a6491/ffffff?text=Skyline+Interior', alt: 'Skyline Towers interior' },
+      { id: 5, src: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&q=80&w=800', alt: 'Skyline Towers tower A' },
+      { id: 6, src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=800', alt: 'Skyline Towers lobby' },
+      { id: 7, src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=800', alt: 'Skyline Towers interior' },
     ],
   },
   {
     category: 'RK Heritage Villas',
     items: [
-      { id: 8, src: 'https://placehold.co/800x600/3a4f74/ffffff?text=Heritage+Villa+Front', alt: 'Heritage Villas front view' },
-      { id: 9, src: 'https://placehold.co/800x600/1B2A4A/ffffff?text=Heritage+Living+Room', alt: 'Heritage Villas living room' },
-      { id: 10, src: 'https://placehold.co/800x600/2d3d5a/ffffff?text=Heritage+Garden', alt: 'Heritage Villas private garden' },
+      { id: 8, src: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800', alt: 'Heritage Villas front view' },
+      { id: 9, src: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=800', alt: 'Heritage Villas living room' },
+      { id: 10, src: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=800', alt: 'Heritage Villas private garden' },
     ],
   },
   {
     category: 'Events & Site Visits',
     items: [
-      { id: 11, src: 'https://placehold.co/800x600/C8963E/1B2A4A?text=Launch+Event', alt: 'Project launch event' },
-      { id: 12, src: 'https://placehold.co/800x600/b8832e/ffffff?text=Site+Visit', alt: 'Client site visit' },
+      { id: 11, src: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=800', alt: 'Project launch event' },
+      { id: 12, src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800', alt: 'Client site visit' },
     ],
   },
 ];

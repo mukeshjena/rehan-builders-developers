@@ -95,7 +95,7 @@ export const properties = [
     image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200',
     images: [
       'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1600607687126-d6e297a760b2?auto=format&fit=crop&q=80&w=1200'
+      'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1200'
     ],
     amenities: ['Private Pool', 'Terrace Garden', 'Concierge', 'Gym', 'Spa'],
     highlights: ['Beachfront Property', 'Panoramic Ocean Views', 'Designer Fittings', 'Exclusive Lift Lobby'],
@@ -119,7 +119,7 @@ export const properties = [
     image: 'https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&q=80&w=1200',
     images: [
       'https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&q=80&w=1200',
-      'https://images.unsplash.com/photo-1502672260266-1c1c24240f57?auto=format&fit=crop&q=80&w=1200'
+      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&q=80&w=1200'
     ],
     amenities: ['Heritage Clubhouse', 'Library', 'Lounge', 'Valet Parking'],
     highlights: ['Colonial Architecture', 'High Ceilings', 'Premium Location', 'Exclusive Community'],

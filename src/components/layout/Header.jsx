@@ -1,7 +1,7 @@
 // src/components/layout/Header.jsx
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Building2 } from 'lucide-react';
+import { Menu, X, Phone, Building2, ChevronDown } from 'lucide-react';
 import { useScrollDirection } from '../../hooks/useScrollDirection';
 import MobileMenu from './MobileMenu';
 
@@ -14,11 +14,37 @@ const navLinks = [
   { to: '/contact', label: 'Contact' },
 ];
 
+const moreLinks = [
+  { to: '/gallery', label: 'Gallery' },
+  { to: '/testimonials', label: 'Testimonials' },
+  { to: '/faq', label: 'FAQ' },
+  { to: '/emi-calculator', label: 'EMI Calculator' },
+  { to: '/careers', label: 'Careers' },
+];
+
 export default function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isMoreOpen, setMoreOpen] = useState(false);
+  const moreRef = useRef(null);
   const { scrollDirection, scrollY } = useScrollDirection();
   const location = useLocation();
   const isHomePage = location.pathname === '/';
+
+  // Close "More" dropdown on click outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (moreRef.current && !moreRef.current.contains(e.target)) {
+        setMoreOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Close "More" dropdown on route change
+  useEffect(() => {
+    setMoreOpen(false);
+  }, [location.pathname]);
   
   // Apply scrolled styles if we scrolled past 20px OR if we are NOT on the homepage
   const isScrolled = scrollY > 20 || !isHomePage;
@@ -70,12 +96,49 @@ export default function Header() {
                   {link.label}
                 </NavLink>
               ))}
+
+              {/* More Dropdown */}
+              <div className="relative" ref={moreRef}>
+                <button
+                  onClick={() => setMoreOpen((prev) => !prev)}
+                  className={`flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    isScrolled
+                      ? 'text-slate-700 hover:text-navy-800 hover:bg-slate-50'
+                      : 'text-white/90 hover:text-white hover:bg-white/10'
+                  }`}
+                  aria-expanded={isMoreOpen}
+                  aria-haspopup="true"
+                >
+                  More
+                  <ChevronDown size={14} className={`transition-transform duration-200 ${isMoreOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                {isMoreOpen && (
+                  <div className="absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-lg border border-slate-100 py-2 z-50">
+                    {moreLinks.map((link) => (
+                      <NavLink
+                        key={link.to}
+                        to={link.to}
+                        className={({ isActive }) =>
+                          `block px-4 py-2.5 text-sm font-medium transition-colors ${
+                            isActive
+                              ? 'text-gold-500 bg-slate-50'
+                              : 'text-slate-700 hover:text-navy-800 hover:bg-slate-50'
+                          }`
+                        }
+                      >
+                        {link.label}
+                      </NavLink>
+                    ))}
+                  </div>
+                )}
+              </div>
             </nav>
 
             {/* CTA + Mobile Toggle */}
             <div className="flex items-center gap-3">
               <a
-                href="tel:+919876543210"
+                href="tel:+917738434041"
                 className={`hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold border transition-colors ${
                   isScrolled
                     ? 'border-navy-800 text-navy-800 hover:bg-navy-800 hover:text-white'
@@ -84,7 +147,7 @@ export default function Header() {
                 aria-label="Call us"
               >
                 <Phone size={16} />
-                +91 98765 43210
+                +91 77384 34041
               </a>
 
               <button

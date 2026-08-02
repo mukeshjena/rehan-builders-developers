@@ -25,10 +25,10 @@ const legalLinks = [
 ];
 
 const socialLinks = [
-  { href: 'https://facebook.com/rkbuilders', icon: FaFacebook, fullLabel: 'Facebook' },
-  { href: 'https://instagram.com/rkbuilders', icon: FaInstagram, fullLabel: 'Instagram' },
-  { href: 'https://linkedin.com/company/rkbuilders', icon: FaLinkedin, fullLabel: 'LinkedIn' },
-  { href: 'https://youtube.com/@rkbuilders', icon: FaYoutube, fullLabel: 'YouTube' },
+  { href: 'https://facebook.com/rkbuildersanddevelopers', icon: FaFacebook, fullLabel: 'Facebook' },
+  { href: 'https://instagram.com/rkbuildersanddevelopers', icon: FaInstagram, fullLabel: 'Instagram' },
+  { href: 'https://linkedin.com/company/rkbuildersanddevelopers', icon: FaLinkedin, fullLabel: 'LinkedIn' },
+  { href: 'https://youtube.com/@rkbuildersanddevelopers', icon: FaYoutube, fullLabel: 'YouTube' },
 ];
 
 export default function Footer() {
@@ -112,20 +112,20 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+917738434041"
                   className="flex items-center gap-3 text-sm text-slate-400 hover:text-gold-400 transition-colors duration-200"
                 >
                   <Phone size={18} className="text-gold-400 shrink-0" />
-                  +91 98765 43210
+                  +91 77384 34041
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@rkbuilders.com"
+                  href="mailto:info@rkbuildersanddevelopers.in"
                   className="flex items-center gap-3 text-sm text-slate-400 hover:text-gold-400 transition-colors duration-200"
                 >
                   <Mail size={18} className="text-gold-400 shrink-0" />
-                  info@rkbuilders.com
+                  info@rkbuildersanddevelopers.in
                 </a>
               </li>
             </ul>

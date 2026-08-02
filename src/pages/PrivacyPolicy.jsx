@@ -61,14 +61,14 @@ export default function PrivacyPolicy() {
 
           <h2>7. Your Rights</h2>
           <p>
-            You have the right to access, correct, or delete your personal information. To exercise these rights, please contact us at info@rkbuilders.com.
+            You have the right to access, correct, or delete your personal information. To exercise these rights, please contact us at info@rkbuildersanddevelopers.in.
           </p>
 
           <h2>8. Contact Us</h2>
           <p>
             If you have questions about this Privacy Policy, please contact us at:
-            <br />Email: info@rkbuilders.com
-            <br />Phone: +91 98765 43210
+            <br />Email: info@rkbuildersanddevelopers.in
+            <br />Phone: +91 77384 34041
           </p>
 
           <p className="text-sm text-slate-400 mt-8 italic">

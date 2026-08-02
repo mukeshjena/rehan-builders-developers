@@ -64,8 +64,8 @@ export default function TermsAndConditions() {
           <h2>9. Contact Us</h2>
           <p>
             For any questions regarding these Terms, please contact us at:
-            <br />Email: info@rkbuilders.com
-            <br />Phone: +91 98765 43210
+            <br />Email: info@rkbuildersanddevelopers.in
+            <br />Phone: +91 77384 34041
           </p>
 
           <p className="text-sm text-slate-400 mt-8 italic">

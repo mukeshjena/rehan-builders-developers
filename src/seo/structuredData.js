@@ -1,6 +1,6 @@
 // src/seo/structuredData.js
 
-const SITE_URL = 'https://rkbuilders.com'; // Replace with actual domain
+const SITE_URL = 'https://rkbuildersanddevelopers.in';
 
 export function organizationSchema() {
   return {
@@ -10,7 +10,7 @@ export function organizationSchema() {
     url: SITE_URL,
     logo: `${SITE_URL}/logo.png`,
     description: 'Premium real estate builder and developer in Mumbai, specializing in luxury apartments, villas, and commercial properties.',
-    url: 'https://rkbuilders.com',
+    url: 'https://rkbuildersanddevelopers.in',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Unit 401, RK Hub, Bandra Kurla Complex, Bandra East',
@@ -21,13 +21,13 @@ export function organizationSchema() {
     },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+91-9876543210',
+      telephone: '+91-7738434041',
       contactType: 'sales',
     },
     sameAs: [
-      'https://facebook.com/rkbuilders',
-      'https://instagram.com/rkbuilders',
-      'https://linkedin.com/company/rkbuilders',
+      'https://facebook.com/rkbuildersanddevelopers',
+      'https://instagram.com/rkbuildersanddevelopers',
+      'https://linkedin.com/company/rkbuildersanddevelopers',
     ],
   };
 }
@@ -51,7 +51,7 @@ export function realEstateListingSchema(property) {
     address: {
       '@type': 'PostalAddress',
       addressLocality: property.city,
-      addressRegion: 'Odisha',
+      addressRegion: 'Maharashtra',
       addressCountry: 'IN',
     },
     numberOfRooms: property.bedrooms,

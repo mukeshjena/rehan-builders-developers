@@ -76,18 +76,18 @@ export default function Contact() {
                   <Phone size={20} className="text-gold-400 mt-1 shrink-0" />
                   <div>
                     <p className="font-medium text-navy-800">Phone</p>
-                    <a href="tel:+919876543210" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">+91 98765 43210</a>
+                    <a href="tel:+917738434041" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">+91 77384 34041</a>
                     <br />
-                    <a href="tel:+919876543211" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">+91 98765 43211</a>
+                    <a href="tel:+917738434041" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">+91 77384 34041</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Mail size={20} className="text-gold-400 mt-1 shrink-0" />
                   <div>
                     <p className="font-medium text-navy-800">Email</p>
-                    <a href="mailto:info@rkbuilders.com" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">info@rkbuilders.com</a>
+                    <a href="mailto:info@rkbuildersanddevelopers.in" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">info@rkbuildersanddevelopers.in</a>
                     <br />
-                    <a href="mailto:sales@rkbuilders.com" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">sales@rkbuilders.com</a>
+                    <a href="mailto:sales@rkbuildersanddevelopers.in" className="text-sm text-slate-600 hover:text-gold-400 transition-colors">sales@rkbuildersanddevelopers.in</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

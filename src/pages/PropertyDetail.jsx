@@ -272,11 +272,11 @@ export default function PropertyDetail() {
 
                 <div className="mt-6 pt-6 border-t border-slate-200 space-y-3">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+917738434041"
                     className="flex items-center justify-center gap-2 w-full py-3 rounded-lg border border-navy-800 text-navy-800 font-semibold text-sm hover:bg-navy-800 hover:text-white transition-colors"
                   >
                     <Phone size={16} />
-                    Call: +91 98765 43210
+                    Call: +91 77384 34041
                   </a>
                   {property.floorPlan && (
                     <a

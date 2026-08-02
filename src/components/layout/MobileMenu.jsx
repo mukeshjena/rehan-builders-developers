@@ -102,10 +102,10 @@ export default function MobileMenu({ isOpen, onClose, links }) {
         {/* Contact */}
         <div className="absolute bottom-0 left-0 right-0 p-5 border-t border-slate-200 bg-slate-50">
           <a
-            href="tel:+919876543210"
+            href="tel:+917738434041"
             className="block w-full text-center px-4 py-3 bg-navy-800 text-white rounded-lg font-semibold text-sm hover:bg-navy-700 transition-colors duration-200"
           >
-            Call: +91 98765 43210
+            Call: +91 77384 34041
           </a>
         </div>
       </div>

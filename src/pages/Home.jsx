@@ -59,10 +59,10 @@ export default function Home() {
       />
 
       {/* ── Hero ── */}
-      <section className="relative z-10 min-h-screen flex items-center justify-center bg-navy-900 overflow-hidden">
+      <section className="relative z-10 min-h-[600px] md:min-h-screen flex items-center justify-center bg-navy-900 overflow-hidden">
         <HeroSlider />
 
-        <div className="relative z-20 max-w-5xl mx-auto px-4 text-center text-white pt-20">
+        <div className="relative z-20 max-w-5xl mx-auto px-4 text-center text-white pt-20 pb-20">
           <motion.p
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}

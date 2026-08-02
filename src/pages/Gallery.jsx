@@ -10,7 +10,7 @@ const galleryData = [
     items: [
       { id: 1, src: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City exterior view' },
       { id: 2, src: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City clubhouse' },
-      { id: 3, src: 'https://images.unsplash.com/photo-1572331165267-854da2b021b1?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City swimming pool' },
+      { id: 3, src: 'https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City swimming pool' },
       { id: 4, src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800', alt: 'RK Green City garden' },
     ],
   },

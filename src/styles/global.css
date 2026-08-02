@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ── Custom Theme ── */
+@theme {
+  --color-navy-50: #f0f3f8;
+  --color-navy-100: #dce3ef;
+  --color-navy-200: #b9c7df;
+  --color-navy-300: #8ea4c9;
+  --color-navy-400: #6580af;
+  --color-navy-500: #4a6491;
+  --color-navy-600: #3a4f74;
+  --color-navy-700: #2d3d5a;
+  --color-navy-800: #1B2A4A;
+  --color-navy-900: #111c33;
+  --color-navy-950: #0a1120;
+
+  --color-gold-50: #fdf8ef;
+  --color-gold-100: #f9edd5;
+  --color-gold-200: #f2d8a8;
+  --color-gold-300: #e9be73;
+  --color-gold-400: #C8963E;
+  --color-gold-500: #b8832e;
+  --color-gold-600: #9a6a24;
+  --color-gold-700: #7d5220;
+  --color-gold-800: #664320;
+  --color-gold-900: #55381e;
+
+  --color-slate-50: #f8f9fa;
+  --color-slate-100: #f1f3f5;
+  --color-slate-200: #e9ecef;
+  --color-slate-300: #dee2e6;
+  --color-slate-400: #ced4da;
+  --color-slate-500: #adb5bd;
+  --color-slate-600: #6c757d;
+  --color-slate-700: #495057;
+  --color-slate-800: #343a40;
+  --color-slate-900: #212529;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Base Styles ── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-slate-800);
+    background-color: #ffffff;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-navy-800);
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  /* Skip to content link */
+  .skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 100;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-navy-800);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .skip-to-content:focus {
+    left: 0;
+  }
+
+  /* Focus-visible styles */
+  *:focus-visible {
+    outline: 2px solid var(--color-gold-400);
+    outline-offset: 2px;
+  }
+
+  /* Remove default focus for mouse users */
+  *:focus:not(:focus-visible) {
+    outline: none;
+  }
+}

@@ -1,0 +1,66 @@
+// src/data/news.js
+
+export const newsCategories = ['All', 'Company News', 'Market Insights', 'Buying Guide', 'Construction Updates'];
+
+export const articles = [
+  {
+    id: 'news-1',
+    slug: 'rk-builders-launches-worli-project',
+    title: 'RK Builders & Developers Announces Ultra-Luxury Project in Worli',
+    excerpt: 'Mr. Rehan Khan unveiled the highly anticipated Sea View Towers in Worli, promising to redefine luxury living in South Mumbai.',
+    content: '<p>Mr. Rehan Khan, founder of RK Builders & Developers, today announced the launch of <strong>Sea View Towers</strong>, an ultra-luxury residential project located in the heart of Worli, Mumbai.</p><p>Speaking at the launch event, Mr. Khan emphasized the company\'s commitment to delivering world-class architecture combined with sustainable living. "Our vision for Sea View Towers is to provide not just a home, but a lifestyle that caters to the global citizen," he stated.</p><p>The project features 4 and 5 BHK sea-facing apartments, infinity pools, and a private clubhouse. Completion is expected by 2028.</p>',
+    category: 'Company News',
+    author: 'Corporate Communications',
+    publishedAt: '2026-07-15T10:00:00Z',
+    readTime: '3 min read',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200',
+  },
+  {
+    id: 'news-2',
+    slug: 'mumbai-real-estate-trends-2026',
+    title: 'Mumbai Real Estate: Trends to Watch in H2 2026',
+    excerpt: 'An in-depth look at property prices, infrastructure developments, and buying trends across Mumbai suburbs.',
+    content: '<p>The Mumbai real estate market has seen significant shifts in the first half of 2026, primarily driven by major infrastructure upgrades like the coastal road and metro expansions.</p><h3>The Rise of the Suburbs</h3><p>Areas like Andheri, Malad, and Goregaon continue to see high demand from IT professionals and young families. The focus has shifted towards gated communities that offer comprehensive amenities.</p><h3>Luxury Segment Boom</h3><p>South Mumbai and Bandra are witnessing a resurgence in the ultra-luxury segment, with buyers prioritizing spacious layouts, privacy, and exclusive features like private plunge pools and home automation.</p>',
+    category: 'Market Insights',
+    author: 'Rehan Khan',
+    publishedAt: '2026-07-02T09:30:00Z',
+    readTime: '5 min read',
+    image: 'https://images.unsplash.com/photo-1574362848149-11496d93a7c7?auto=format&fit=crop&q=80&w=1200',
+  },
+  {
+    id: 'news-3',
+    slug: 'guide-to-buying-first-home-mumbai',
+    title: 'The Ultimate Guide to Buying Your First Home in Mumbai',
+    excerpt: 'Navigating the Mumbai real estate market can be daunting. Here is a step-by-step guide for first-time homebuyers.',
+    content: '<p>Buying your first home in Mumbai is a major milestone. Here are some essential tips to help you make an informed decision.</p><h3>1. Define Your Budget and Location</h3><p>Mumbai is vast. Decide whether you want the connectivity of Andheri, the tranquility of Powai, or the premium lifestyle of Bandra. Ensure your budget accounts for stamp duty, registration, and maintenance.</p><h3>2. Check RERA Registration</h3><p>Always ensure the project is registered under MahaRERA. This guarantees transparency and timely delivery.</p><h3>3. Choose a Reputed Builder</h3><p>Trust builders with a proven track record. RK Builders & Developers, led by Mr. Rehan Khan, has consistently delivered quality homes in Mumbai for over two decades.</p>',
+    category: 'Buying Guide',
+    author: 'Sales Team',
+    publishedAt: '2026-06-20T14:15:00Z',
+    readTime: '4 min read',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1200',
+  },
+  {
+    id: 'news-4',
+    slug: 'sustainable-building-practices',
+    title: 'RK Builders Pioneers Sustainable Building Practices',
+    excerpt: 'Our latest commercial project achieves LEED Platinum certification, setting a new benchmark for eco-friendly development.',
+    content: '<p>RK Builders & Developers is proud to announce that our upcoming commercial hub has received the prestigious LEED Platinum certification for its sustainable design and construction practices.</p><h3>Green Technologies</h3><p>We have integrated advanced solar panels, rainwater harvesting systems, and energy-efficient HVAC units that reduce the building\'s carbon footprint by over 40% compared to standard structures.</p><p>"Sustainability is no longer an option, it\'s a responsibility," said Mr. Rehan Khan. "We are committed to building a greener Mumbai for future generations."</p>',
+    category: 'Company News',
+    author: 'Sustainability Team',
+    publishedAt: '2026-05-10T11:00:00Z',
+    readTime: '3 min read',
+    image: 'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&q=80&w=1200',
+  },
+  {
+    id: 'news-5',
+    slug: 'investing-in-commercial-real-estate',
+    title: 'Why 2026 is the Year to Invest in Commercial Real Estate',
+    excerpt: 'With the economy booming, commercial real estate in Mumbai offers unprecedented returns. Discover the top micro-markets.',
+    content: '<p>As businesses expand and international corporations set up bases in India, the demand for Grade A commercial real estate in Mumbai is at an all-time high.</p><h3>High Rental Yields</h3><p>Unlike residential properties, commercial real estate in prime areas like BKC and Andheri East are offering rental yields of 7-9%. Investors are increasingly shifting their portfolios to include commercial assets.</p><h3>Key Micro-Markets</h3><p>Andheri East, with its proximity to the international airport and metro connectivity, remains the top choice for IT and media companies. RK Andheri Hub is perfectly positioned to capitalize on this growing demand.</p>',
+    category: 'Market Insights',
+    author: 'Rehan Khan',
+    publishedAt: '2026-04-22T08:45:00Z',
+    readTime: '4 min read',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=1200',
+  }
+];

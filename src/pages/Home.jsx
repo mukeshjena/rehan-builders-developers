@@ -103,10 +103,10 @@ export default function Home() {
       </section>
 
       {/* ── Search Widget ── */}
-      <section className="relative z-20 -mt-12 max-w-4xl mx-auto px-4">
+      <section className="relative z-20 -mt-10 max-w-4xl mx-auto px-4 mb-4">
         <form
           onSubmit={handleSearch}
-          className="bg-white rounded-xl border border-slate-200 p-6 grid grid-cols-1 sm:grid-cols-4 gap-4"
+          className="bg-white rounded-xl border border-slate-200 shadow-xl p-6 pt-5 grid grid-cols-1 sm:grid-cols-4 gap-4"
         >
           <div>
             <label htmlFor="search-city" className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1.5">Location</label>
